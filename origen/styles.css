@@ -1,0 +1,154 @@
+body {
+  font-family: sans-serif;
+  font-family: "fantasy", Verdana, sans-serif;
+  background-image: url("image/nevado.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+}
+.titulo {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  align-content: center;
+  background-color: #bad7e9;
+  color: #eb455f;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 30px;
+}
+.cuadro-nombrejugadora {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #2b3467;
+  margin-bottom: 20px;
+}
+.preguntatema {
+  padding: 20px;
+  font-weight: bold;
+  color: #2b3467;
+  font-size: 20px;
+}
+.botones-escoger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2b3467;
+  font-family: "fantasy", Verdana, sans-serif;
+  font-weight: bold;
+}
+.imagen-ciencia {
+  padding: 5px;
+  border: 2px solid #eb455f;
+  width: 150px;
+  height: 130px;
+}
+.imagen-pop {
+  padding: 5px;
+  border: 2px solid #eb455f;
+  width: 150px;
+  height: 130px;
+  margin-left: 20px;
+}
+#boton-jugar {
+  width: 150px;
+  border-radius: 20px;
+  height: 35px;
+  background: #2b3467;
+  color: #fcffe7;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+/*fondo degradado */
+.cuadro-seccionprincipal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(194, 237, 245, 0.7);
+  padding: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+#resultado-nombre {
+  color: #eb455f;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: -20px;
+}
+.cronometro1 {
+  font-size: 40px;
+  margin-top: -55px;
+  margin-bottom: -55px;
+  color: #eb455f;
+}
+#seccion-ciencia {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(194, 237, 245, 0.7);
+  padding: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #2b3467;
+  font-weight: bold;
+}
+.cronometro2 {
+  font-size: 40px;
+  margin-top: -55px;
+  margin-bottom: -55px;
+  color: #eb455f;
+}
+#seccion-pop {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(194, 237, 245, 0.7);
+  padding: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: #2b3467;
+  font-weight: bold;
+}
+#resultado-trivia {
+  margin-top: 50px;
+  background-color: #bad7e9;
+  color: #eb455f;
+  font-weight: bold;
+  border-radius: -10px;
+  font-size: 20px;
+}
+#cuadro-resultados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: -50px;
+}
+#boton-responder {
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  background: #2b3467;
+  color: #fcffe7;
+  font-size: 15px;
+  margin-top: 10px;
+}
+#reiniciar {
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  background: #2b3467;
+  color: #fcffe7;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
