@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TRIVIA</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <section id="seccion-principal">
+      <div class="titulo">
+        <h1>BIENVENIDOS A LA TRIVIA</h1>
+      </div>
+
+      <div class="cuadro-seccionprincipal">
+        <div class="cuadro-nombrejugadora">
+          <form>
+            <label for="nombre-jugadora">Escribe tu nombre</label>
+            <input type="text" id="nombre-jugadora" name="nombre" required />
+          </form>
+        </div>
+
+        <div class="preguntatema">
+          ¿Con qué tema quieres probar tus conocimientos?
+        </div>
+        <div class="botones-escoger">
+          <img
+            class="imagen-ciencia"
+            src="https://11defebrero.files.wordpress.com/2021/02/3331972.jpg"
+            alt="imgciencia"
+          />
+          <input type="radio" id="ciencia" name="tema" />Ciencia <br />
+          <img
+            class="imagen-pop"
+            src="https://static.vecteezy.com/system/resources/previews/014/018/382/original/woman-singer-and-karaoke-concept-young-positive-brunette-woman-cartoon-character-singer-standing-and-singing-song-in-microphone-over-blue-background-illustration-vector.jpg"
+            alt="imgpop"
+          />
+          <input type="radio" id="pop" name="tema" />Cultura pop <br />
+        </div>
+
+        <button id="boton-jugar">A jugar!</button>
+      </div>
+    </section>
+
+    <section id="seccion-ciencia">
+      <section id="resultado-nombre">
+        <h1>
+          ¡BIENVENIDA, <span id="resultado-nombrejugadora"> </span> <br />
+          Tendras 20 Segundos Para Responder Las Preguntas, Suerte!
+        </h1>
+      </section>
+
+      <div class="cronometro1">
+        <p id="cronometro"></p>
+      </div>
+
+      <h2>1. ¿Quién descubrió la penicilina?</h2>
+      <div>
+        <input type="radio" id="radio1" name="respuesta" /> a) Alexander Fleming
+        <br />
+        <input type="radio" id="radio2" name="respuesta" /> b) Karol g <br />
+        <input type="radio" id="radio3" name="respuesta" /> c) Justin Bieber
+        <br />
+      </div>
+
+      <h2>2. Selecciona un tipo de examen médico</h2>
+      <div>
+        <input type="radio" id="radio4" name="respuesta2" /> a) Examen de
+        matematicas
+        <br />
+        <input type="radio" id="radio5" name="respuesta2" /> b) Examen de
+        compresion lectora
+        <br />
+        <input type="radio" id="radio6" name="respuesta2" /> c) Rayos X <br />
+      </div>
+
+      <h2>3. Selecciona un animal acuatico</h2>
+      <div>
+        <input type="radio" id="radio7" name="respuesta3" /> a) Mariposa <br />
+        <input type="radio" id="radio8" name="respuesta3" /> b) Delfin <br />
+        <input type="radio" id="radio9" name="respuesta3" /> c) Hormiga <br />
+      </div>
+    </section>
+
+    <section id="seccion-pop">
+      <section id="resultado-nombre">
+        <h1>
+          ¡BIENVENIDA, <span id="resultado-nombrejugadora2"> </span>
+          <br />Tendras 20 Segundos Para Responder Las Preguntas, Suerte!
+        </h1>
+      </section>
+
+      <div class="cronometro2">
+        <p id="cronometro2"></p>
+      </div>
+
+      <h2>1. Selecciona el nombre de un popular gorila de gran tamaño</h2>
+      <div>
+        <input type="radio" id="radio10" name="respuesta4" /> a) King Kong
+        <br />
+        <input type="radio" id="radio11" name="respuesta4" /> b) Superman <br />
+        <input type="radio" id="radio12" name="respuesta4" /> c) Godzilla <br />
+      </div>
+
+      <h2>2. Selecciona el nombre de una consola de videojuegos</h2>
+      <div>
+        <input type="radio" id="radio13" name="respuesta5" /> a) Apple <br />
+        <input type="radio" id="radio14" name="respuesta5" /> b) Marvel <br />
+        <input type="radio" id="radio15" name="respuesta5" /> c) Nintendo <br />
+      </div>
+
+      <h2>3. ¿Cual es el nombre artistico de la reina del pop?</h2>
+      <div>
+        <input type="radio" id="radio16" name="respuesta6" /> a) Bob Esponja<br />
+        <input type="radio" id="radio17" name="respuesta6" /> b) Madonna <br />
+        <input type="radio" id="radio18" name="respuesta6" /> c) Bad Bunny
+      </div>
+      <br />
+    </section>
+
+    <div id="cuadro-resultados">
+      <p id="resultado-trivia"></p>
+    </div>
+
+    <section id="botones">
+      <button id="boton-responder">Responder</button>
+      <button id="reiniciar">Reiniciar</button>
+    </section>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
